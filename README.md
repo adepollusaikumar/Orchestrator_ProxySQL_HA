@@ -10,6 +10,6 @@ Vagrant setup for MySQL high availability with Orchestrator and ProxySQL
 If any errors in between execute `vagrant destroy` and then re-run `vagrant up` 
 
 
-once successfull execution open orchestrator link http://10.0.5.100:3000
+once successfull execution open orchestrator link http://10.0.5.104:3000
 
 ![](OrchestratorExecution.gif)
