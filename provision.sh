@@ -158,7 +158,7 @@ orchestrator_provision()
                               #sudo service orchestrator stop
                               echo -e "\e[40;38;5;82m ==> Installing Orchestrator  \e[0m"
                               rpm -i http://www6.atomicorp.com/channels/atomic/centos/7/x86_64/RPMS/oniguruma-5.9.5-3.el7.art.x86_64.rpm
-                              rpm -i http://download-ib01.fedoraproject.org/pub/epel/7/x86_64/Packages/j/jq-1.5-1.el7.x86_64.rpm
+                              rpm -i https://download-ib01.fedoraproject.org/pub/epel/7/x86_64/Packages/j/jq-1.6-1.el7.x86_64.rpm
                               yum install https://github.com/github/orchestrator/releases/download/v3.0.14/orchestrator-3.0.14-1.x86_64.rpm -y -q
 
                               echo -e "\e[40;38;5;82m ==> Configuring Orchestrator  \e[0m"
